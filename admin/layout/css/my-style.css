@@ -1,0 +1,357 @@
+
+
+/*****************************************************************************************************
+**
+**                      						global STYLE
+**
+******************************************************************************************************
+/* start body*/
+body {
+	background-color: #e4e4e4;
+	font-size: 16px
+}
+.selectboxit-container {
+	width: 100%;
+	height: 100%
+}
+.selectboxit-container .selectboxit {
+	width: 100%;
+	height: 100%
+}
+
+.asterisk {
+	font-size:30px;
+	color :#920000;
+	position: absolute;
+	right: 25px;
+	top: 0
+}
+label {
+	font-weight: bold
+}
+.h1 {
+	margin-top: 40px;
+	margin-bottom: 40px 
+}
+.show-pass {
+	position: absolute;
+	right: 45px;
+    color: #ff9393;
+    top: 10px
+
+}
+.erro-tow {margin-top: 60px }
+/* start body*/
+
+/*****************************************************************************************************
+**
+**                      						LOGIN STYLE
+**
+******************************************************************************************************
+
+
+/* start login*/
+.login {
+	width:400px;
+	margin:100px auto;
+}
+.login .form-control {
+
+}
+.login input {
+	margin-bottom: 20px
+}
+.login .btn {
+	background-color: #008dde
+}
+.form-group {
+	position: relative;
+}
+/* end login*/
+
+/*****************************************************************************************************
+**
+**                      						NAVBAR STYLE
+**
+******************************************************************************************************
+
+/* start navbar*/
+.navbar-dark .navbar-brand {
+	font-size: 1em
+}
+.navbar {
+    padding: 0 1rem
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.dropdown-menu {
+	background-color: #3498db
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	padding: 0;
+	margin: 0;
+	border: none;
+    border-radius: 0 10px 0px 10px;
+}
+.dropdown-item {
+	    color: #fff;
+	    
+}
+.dropdown-menu .dropdown-divider {
+	margin: 0
+}
+/* end navbar*/
+/* star errors*/
+.error-id {
+	text-align: center;
+	font-size: 40px;
+	border-radius: 0 60px 0 60px;
+	max-width: 400px;
+	max-height: 90px;
+	margin:auto;
+	margin-top: 150px;
+	padding: 10px
+}
+
+/* end errors*/
+
+
+/*****************************************************************************************************
+**
+**                      						MEMBRES PAGE STYLE
+**
+******************************************************************************************************
+/* start table*/
+.main-table  {
+	-webkit-box-shadow: 5px 3px 15px red;
+	-moz-box-shadow: 5px 3px 15px red;
+	box-shadow: 5px 3px 15px red
+}
+.main-table td {
+	vertical-align: middle
+}
+.main-table .btn {
+	padding: 0 .50rem;
+}
+.main-table .btn-act {
+	margin-left: 5px;
+}
+/* end table*/
+
+/*****************************************************************************************************
+**
+**                      						DASHboured PAGE STYLE
+**
+******************************************************************************************************/
+.dashbourd .h1 {
+	margin: 30px
+}
+.dashbourd .panal-dash a {
+	color: #fff;
+	transition: all 1s
+}
+.dashbourd .panal-dash a:hover {
+	text-decoration: none;
+	color:red
+}
+.panal-dash .count {
+	padding: 20px;
+	font-size: 18px;
+	color: #fff;
+	position: relative;
+	overflow: hidden
+}
+.panal-dash .count i {
+	font-size: 80px;
+    position: absolute;
+    left: 25px;
+    top: 35px
+}
+.panal-dash .count .counts {
+	float: right
+}
+.panal-dash .totale {
+	background-color: #34495e;
+	color: #fff
+}
+.panal-dash .pending {
+	background-color: #e74c3c
+}
+.panal-dash .items {
+	background-color: #7f8c8d
+}
+.panal-dash .comment {
+	background-color: #3498db
+}
+.panal-dash .count span {
+	display: block;
+	font-size: 50px
+}
+/***************************************************/
+.latest {
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+.latest .card-header {
+	font-size: 24px;
+	color: #e74c3c
+}
+.latest .card-body {
+	font-size: 24px;
+	color: #fff
+}
+.latest .card-body .comment-box {
+	margin: 5px 0 10px;
+	font-size: 14px;
+	color: #444;
+}
+.latest .card-body .comment-box .member-n,
+.latest .card-body .comment-box .member-c {
+	float: left
+}
+.latest .card-body .comment-box .member-n {
+	margin-right: 20px;
+	width: 100px;
+	padding: 0 15px;
+	font-size: 16px;
+	position: relative;
+	top: 5px
+}
+.latest .card-body .comment-box .member-c {
+	width: calc(100% - 120px);
+	border-left: 1px solid #222;
+	padding: 10px;
+	background-color: #eee;
+	position: relative
+}
+.latest .card-body .comment-box .member-c:before {
+	content: '';
+	position: absolute;
+	display: block;
+	left: -32px;
+	top: 5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px;
+	border-color: transparent #eee transparent transparent
+}
+.latest .card-body .list {
+	margin-bottom: 0;
+	overflow: hidden;
+}
+.latest .card-body .list li {
+	background-color: #454d55;
+	padding: 7px;
+    /*margin: 5px;*/
+    vertical-align: middle;
+}
+.latest .card-body .list li:nth-child(odd) {
+	background-color: #343a40
+}
+.latest .card-body .list .btn {
+	    padding: 5px 15px;
+}
+
+/*****************************************************************************************************
+**
+**                      						Categories PAGE STYLE
+**
+******************************************************************************************************/
+
+.categories {
+	margin-bottom: 100px
+}
+.categories .add {
+	margin-top: 5px
+}
+.categories .card-header {
+	border-bottom: 2px solid rgba(0,0,0,.125);
+	position: relative;
+	font-size: 24px;
+	font-weight: 600
+}
+.categories .card-header .order {
+	position: absolute;
+	right: 10px;
+	top: 10px
+}
+.categories .card-header .order .view {
+	color: #777;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer
+}
+.categories .card-header .order .active {
+	color: red;
+}
+.categories .card-body {
+	padding: 0
+}
+.categories .card-body h2 {
+	margin-bottom: 0
+}
+.categories .card-body .box-info p {
+	margin-top: 15px
+}
+.categories .card-body hr {
+	margin-bottom: 0;
+	margin-top: 0;
+	border: 2px solid #eee
+}
+.categories .categor:last-of-type ~ hr {
+	display: none
+}
+.categories .categor {
+	padding: 1.25rem;
+	position: relative;
+	overflow: hidden
+}
+.categories .categor:hover {
+	background-color: #eee
+}
+.categories .categor .button {
+	-webkit-transition: ease 1s all;
+	-moz-transition: ease 1s all;
+	transition: ease 1s all;
+	position: absolute;
+	right: -150px;
+	opacity: 0
+}
+.categories .categor:hover .button {
+	right: 10px;
+	opacity: 1
+}
+.categories .categor a {
+	margin-right: 5px
+	
+}
+.categories .categor span {
+	padding: 4px 15px;
+	margin-right: 5px;
+    border-radius: 5px;
+    color: #fff
+}
+.categories .categor .allow-a,
+.categories .categor .allow-aa {
+	background-color: #30336b
+}
+.categories .categor .allow-b,
+.categories .categor .allow-bb {
+	background-color: #4834d4
+}
+
+.categories .categor .allow-c,
+.categories .categor .allow-cc {
+	background-color: #be2edd
+}
+.categories .categor .allow-aa,
+.categories .categor .allow-bb,
+.categories .categor .allow-cc {
+	opacity: .5
+}
+
+
